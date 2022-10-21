@@ -19,7 +19,8 @@ Start the application
 ```bash
 python app.py 
 ```
-Start Locust: Open an new shell and activate the same Python enviromnet
+### Start locust
+Open a new shell and activate the same Python environment
 ```bash
 source ~/.docker-flask-locust-env/bin/activate
 ```
