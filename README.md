@@ -1,6 +1,36 @@
-# docker-flask-locust
-A docker + flask + locust demo project
+# Docker Flask And Locust
+A docker + flask + locust demo project.
 
+## Quick start
+Prepare a Python environment and install the depedecies:
+
+```bash
+# Create a Python Environment 
+python3 -m venv ~/.docker-flask-locust-env
+# Activate the Environment 
+source ~/.docker-flask-locust-env/bin/activate
+# Change directory 
+cd ~/environment/docker-flask-locust/ 
+# Install dependencies
+make install
+```
+
+Start the application
+```bash
+python app.py 
+```
+### Start locust
+Open a new shell and activate the same Python environment
+```bash
+source ~/.docker-flask-locust-env/bin/activate
+```
+Start locust
+```bash
+locust
+```
+Open your browser and visit http://localhost:8089
+
+## Video Walkthrough
 [Flask + Locust YouTube Walkthrough](https://www.youtube.com/watch?v=bUEYe6AqlXE)
 
 
